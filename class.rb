@@ -7,7 +7,7 @@ class Class
     @school_year = school_year
     @student_list = student_list
   end
-  def display_infomation
+  def display_information
     puts" Class code: #{@class_code}"
     puts" Class name: #{@class_name}"
     puts" School years: #{@school_year}"
@@ -16,4 +16,4 @@ class Class
 end
 
 class_1 = Class.new("D01", "DT2", "2019-2023", "70")
-class_1.display_infomation
+class_1.display_information
